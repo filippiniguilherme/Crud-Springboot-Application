@@ -25,6 +25,8 @@ public class Pessoa implements Serializable{
 
 	private Integer idade;
 	
+	public Integer cep;
+	
 	public Long getId() {
 		return id;
 	}
@@ -56,6 +58,15 @@ public class Pessoa implements Serializable{
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
 	}
+
+	public Integer getCep() {
+		return cep;
+	}
+
+	public void setCep(Integer cep) {
+		this.cep = cep;
+	}
+	
 	
 	
 }
